@@ -1,5 +1,5 @@
 import { ChevronLeft, ChevronRight, Link2 } from "lucide-react";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import { caseStudies } from "../constants/processs";
 
 export const Clients = () => {
@@ -10,24 +10,24 @@ export const Clients = () => {
 
   const totalSlides = caseStudies.length;
 
-  useEffect(() => {
-    const updateSlidesToShow = () => {
-      if (window.innerWidth < 640) {
-        setSlidesToShow(1);
-      } else if (window.innerWidth < 1024) {
-        setSlidesToShow(2);
-      } else {
-        setSlidesToShow(3);
-      }
-    };
+  const updateSlidesToShow = useCallback(() => {
+    if (window.innerWidth < 640) {
+      setSlidesToShow(1);
+    } else if (window.innerWidth < 1024) {
+      setSlidesToShow(2);
+    } else {
+      setSlidesToShow(3);
+    }
+  }, []);
 
+  useEffect(() => {
     updateSlidesToShow();
     window.addEventListener("resize", updateSlidesToShow);
 
     return () => {
       window.removeEventListener("resize", updateSlidesToShow);
     };
-  }, []);
+  }, [updateSlidesToShow]);
 
   useEffect(() => {
     if (openModal) {
@@ -41,21 +41,21 @@ export const Clients = () => {
     };
   }, [openModal]);
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     if (currentSlide < totalSlides - slidesToShow) {
       setCurrentSlide(currentSlide + 1);
     } else {
       setCurrentSlide(0);
     }
-  };
+  }, [currentSlide, totalSlides, slidesToShow]);
 
-  const prevSlide = () => {
+  const prevSlide = useCallback(() => {
     if (currentSlide > 0) {
       setCurrentSlide(currentSlide - 1);
     } else {
       setCurrentSlide(totalSlides - slidesToShow);
     }
-  };
+  }, [currentSlide, totalSlides, slidesToShow]);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -65,7 +65,7 @@ export const Clients = () => {
     return () => {
       clearInterval(interval);
     };
-  }, [currentSlide]);
+  }, [nextSlide]);
 
   const handleBackgroundClick = (e: React.MouseEvent<HTMLDivElement>) => {
     if (e.target === e.currentTarget) {
@@ -124,7 +124,7 @@ export const Clients = () => {
       </div>
       <div
         className="flex justify-center items-center gap-5 mt-4 
-       
+      
       "
       >
         <button
