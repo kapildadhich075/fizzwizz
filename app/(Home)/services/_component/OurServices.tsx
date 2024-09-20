@@ -8,17 +8,12 @@ export const OurServices = () => {
        py-12 px-4 sm:px-6 lg:px-8 bg-black/85"
     >
       <div className="relative text-white text-center z-10 max-w-7xl mx-auto">
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold lg:mb-14">
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold lg:mb-5">
           Our Services
         </h1>
-        <h4 className="text-base sm:text-lg lg:text-xl mt-4  max-w-2xl mx-auto">
+        <h4 className="text-base sm:text-lg lg:text-xl   max-w-2xl mx-auto">
           We Provide The Best Services For Your Business.
         </h4>
-        <img
-          src="https://ik.imagekit.io/umdiwr6ma/fizzwizz/shape-16.png?updatedAt=1726091956823"
-          alt="Shapes"
-          className="hidden md:hidden lg:block absolute z-10 bottom-12 left-24"
-        />
       </div>
       {services.map((service, index) => (
         <div
@@ -64,12 +59,6 @@ export const OurServices = () => {
       ))}
 
       {/* Shapes */}
-      <div className="hidden md:hidden lg:block absolute top-[20rem] left-0  w-12 h-12 md:w-16 md:h-16 bg-white rounded-lg animate-bounce   z-10"></div>
-      <div className="hidden md:hidden lg:block absolute top-[48rem] left-0  w-12 h-12 md:w-16 md:h-16 bg-orange-500 rounded-lg animate-bounce   z-10"></div>
-      <div className="hidden md:hidden lg:block absolute top-[82rem] left-0  w-12 h-12 md:w-16 md:h-16 bg-blue-500 rounded-lg animate-bounce   z-10"></div>
-      <div className="hidden md:hidden lg:block absolute top-[114rem] left-0  w-12 h-12 md:w-16 md:h-16 bg-yellow-200 rounded-lg animate-bounce   z-10"></div>
-      <div className="hidden md:hidden lg:block absolute top-[142rem] left-0  w-12 h-12 md:w-16 md:h-16 bg-cyan-600 rounded-lg animate-bounce   z-10"></div>
-      <div className="hidden md:hidden lg:block absolute top-[170rem] left-0  w-12 h-12 md:w-16 md:h-16 bg-purple-500 rounded-lg animate-bounce   z-10"></div>
     </div>
   );
 };

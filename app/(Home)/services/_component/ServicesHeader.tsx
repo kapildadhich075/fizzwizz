@@ -57,28 +57,10 @@ export const ServicesHeader = () => {
               </SheetContent>
             </Sheet>
           </div>
-
-          <img
-            src="https://ik.imagekit.io/umdiwr6ma/fizzwizz/shape-08.svg?updatedAt=1726251001608"
-            alt="Shape"
-            className="absolute lg:top-[18rem] lg:left-[6rem]  z-20 top-[18rem]  left-[2rem]
-                  h-14 w-14
-          "
-          />
-
-          <img
-            src="https://ik.imagekit.io/umdiwr6ma/fizzwizz/shape-03.svg?updatedAt=1726091976543"
-            alt="Shape"
-            className="absolute top-[46rem] left-[32rem] z-20 h-14 animate-bounce hidden lg:block "
-          />
-          <div className="absolute top-80 items-center justify-center z-20 p-4 mx-4">
-            <h1
-              className="text-white text-4xl lg:text-9xl font-black mb-8 poppins
-             transition duration-500 ease-in-out transform hover:scale-110 text-center
-          "
-            >
+          <div className="flex flex-col mt-32 items-center justify-center max-w-5xl mx-auto text-center min-h-[50vh] gap-8">
+            <h1 className="text-white text-4xl lg:text-5xl xl:text-7xl font-black">
               Here’s what we can do for you and even more{" "}
-              <span className=" text-7xl">🚀</span>
+              <span className="text-4xl lg:text-5xl xl:text-7xl">🚀</span>
             </h1>
             <div className="flex items-center justify-center">
               <button

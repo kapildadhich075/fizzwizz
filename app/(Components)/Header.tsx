@@ -89,32 +89,27 @@ export default function Header({ image, text, subText }: HeaderProps) {
         <img
           src="https://ik.imagekit.io/umdiwr6ma/fizzwizz/shape-08.svg?updatedAt=1726251001608"
           alt="Shape"
-          className="absolute top-[18rem] left-0  z-20 
-                h-14 w-14
+          className="absolute lg:top-[18rem] left-0  z-20 
+                h-14 w-14 sm:top-[12rem]
           "
         />
 
-        <img
-          src="https://ik.imagekit.io/umdiwr6ma/fizzwizz/shape-03.svg?updatedAt=1726091976543"
-          alt="Shape"
-          className="absolute top-[38rem] left-[10rem] z-20 h-10 animate-bounce hidden lg:block "
-        />
         <div className="absolute top-80 items-center justify-center z-20 p-4 mx-4">
           <h1
-            className="text-white text-4xl lg:text-9xl font-black mb-8 poppins
-             transition duration-500 ease-in-out transform hover:scale-110
+            className="text-white text-4xl lg:text-8xl xl:text-9xl font-black mb-8
+             
           "
           >
             {text}
           </h1>
           {subText && (
-            <h1 className="text-white text-2xl sm:text-4xl lg:text-9xl xl:text-8xl font-black mb-4 sm:mb-8 poppins transition duration-500 ease-in-out transform hover:scale-110">
+            <h1 className="text-white text-4xl sm:text-4xl lg:text-8xl xl:text-9xl font-black mb-4 sm:mb-8 ">
               {subText}
             </h1>
           )}
           <div className="">
             <button
-              className="bg-white text-[#ff841a] text-lg font-bold poppins py-3 px-8 rounded-lg mt-16 transition duration-500 ease-in-out transform hover:scale-110"
+              className="bg-white text-[#ff841a] text-lg font-bold py-3 px-8 rounded-lg mt-16"
               onClick={() => {
                 document
                   .getElementById("contact")

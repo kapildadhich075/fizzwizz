@@ -58,30 +58,13 @@ export const AboutUsHeader = () => {
             </Sheet>
           </div>
 
-          <img
-            src="https://ik.imagekit.io/umdiwr6ma/fizzwizz/shape-08.svg?updatedAt=1726251001608"
-            alt="Shape"
-            className="absolute top-[18rem] left-0  z-20 
-                  h-14 w-14
-          "
-          />
-
-          <img
-            src="https://ik.imagekit.io/umdiwr6ma/fizzwizz/shape-03.svg?updatedAt=1726091976543"
-            alt="Shape"
-            className="absolute top-[46rem] left-[25rem] z-20 h-14 animate-bounce hidden lg:block "
-          />
-          <div className="absolute top-80 items-center justify-center z-20 p-4 mx-4">
-            <h1
-              className="text-white text-4xl lg:text-9xl font-black mb-8 poppins
-             transition duration-500 ease-in-out transform hover:scale-110
-          "
-            >
-              We intent to make your brand come out of it’s bubble
+          <div className="flex flex-col mt-32 items-center justify-center max-w-5xl mx-auto text-center min-h-[50vh] gap-8">
+            <h1 className="text-white text-4xl lg:text-5xl xl:text-7xl font-black">
+              We intend to make your brand come out of its bubble
             </h1>
             <div className="flex items-center justify-center">
               <button
-                className="text-[#fff] text-lg font-bold poppins py-3 px-8 rounded-lg mt-16 transition duration-500 ease-in-out transform hover:scale-110"
+                className=""
                 onClick={() => {
                   document
                     .getElementById("about-us")

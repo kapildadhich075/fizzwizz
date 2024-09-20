@@ -44,178 +44,116 @@ export default function Contact() {
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center h-full md:h-[100vh] bg-black/85 w-full">
-        <div className="grid grid-cols-1 md:grid-cols-2 w-full h-full">
-          {/* Map Section */}
-          <div className="relative flex justify-center items-center w-full h-64 md:h-full">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120553.25640728594!2d72.71382509726563!3d19.2262212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0ce8bbec7b7%3A0x79ed625cd26a381e!2sHorizon%20Green!5e0!3m2!1sen!2sin!4v1722295147148!5m2!1sen!2sin"
-              width="100%"
-              height="100%"
-              style={{ border: 0, filter: "grayscale(100%)" }}
-              loading="lazy"
-            ></iframe>
-            <div className="absolute inset-0 bg-black opacity-50"></div>
-          </div>
-          {/* Contact Details and Form Section */}
-          <div className="flex flex-col justify-center items-center p-4 md:p-8 space-y-8">
-            <h1
-              className="text-4xl md:text-6xl text-white font-bold 
-                transition duration-500 ease-in-out transform hover:scale-110
-            "
-            >
-              Contact Us
-            </h1>
+      <div className="flex flex-col justify-center items-center bg-black/85 max-w-5xl p-4">
+        <h1 className="text-4xl md:text-6xl text-white font-bold mb-8 transition duration-500 ease-in-out transform hover:scale-110">
+          Contact Us
+        </h1>
 
-            <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
-              <div className="flex flex-col items-center text-center md:text-left space-y-2">
-                <h2 className="text-2xl text-white font-bold">
-                  <MapIcon size={24} />
-                </h2>
-                <div className="flex flex-col items-center md:items-start space-y-2">
-                  <p className="text-white text-sm md:text-base">
-                    <span className="font-bold">Registered Office: </span>
-                    08, Shakti Nagar, 1st Street, Paota ‘c’ Road, Jodhpur,
-                    Rajasthan, 342001
-                  </p>
-                  <p className="text-white text-sm md:text-base">
-                    <span className="font-bold">Mumbai Office </span>- 1704,
-                    Horizon Green, Kulupwadi, Borivali East, Mumbai, 400066
-                  </p>
-                  <p className="text-white text-sm md:text-base">
-                    <span className="font-bold">Bengaluru Office</span>- 201,
-                    Shet&apos;s Residency, Natraja Layout, JP Nagar 7th Phase
-                    7th Main, 7th Cross, Bengaluru(Karnataka)-560078
-                  </p>
-                </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-8">
+          {/* Contact Information Section */}
+          <div className="grid grid-cols-1 gap-8">
+            <div className="space-y-4">
+              <h2 className="text-2xl text-white font-bold flex items-center justify-center ">
+                <MapIcon size={24} className="mr-2" /> Our Offices
+              </h2>
+              <div className="space-y-4 text-center md:text-left">
+                <p className="text-white text-base">
+                  <span className="font-bold">Registered Office: </span>
+                  08, Shakti Nagar, 1st Street, Paota &apos;c&apos; Road,
+                  Jodhpur, Rajasthan, 342001
+                </p>
+                <p className="text-white text-base">
+                  <span className="font-bold">Mumbai Office: </span>
+                  1704, Horizon Green, Kulupwadi, Borivali East, Mumbai, 400066
+                </p>
+                <p className="text-white text-base">
+                  <span className="font-bold">Bengaluru Office: </span>
+                  201, Shet&apos;s Residency, Natraja Layout, JP Nagar 7th Phase
+                  7th Main, 7th Cross, Bengaluru(Karnataka)-560078
+                </p>
               </div>
-              <div className="grid grid-cols-1 gap-5">
-                <div className="flex flex-col items-center text-center md:text-left space-y-2">
-                  <h2 className="text-2xl text-white font-bold">
-                    <Mail size={24} />
-                  </h2>
-                  <p className="text-white text-sm md:text-base">
+            </div>
+            <div className="lg:flex-row lg:justify-between flex-col flex space-y-5 justify-center items-center">
+              <div className=" space-y-5">
+                <div className="text-center">
+                  <h2 className="text-2xl text-white font-bold flex items-center justify-center ">
+                    <Mail size={24} className="mr-2" />
                     <a
                       href="mailto:info@fizzwizz.in"
-                      className="text-white hover:text-white/70"
+                      className="text-white hover:text-white/70 text-sm"
                     >
                       info@fizzwizz.in
                     </a>
-                  </p>
+                  </h2>
                 </div>
 
-                <div className="flex flex-col items-center text-center md:text-left space-y-2">
-                  <h2 className="text-2xl text-white font-bold">
-                    <Phone size={24} />
-                  </h2>
-                  <p className="text-white text-sm md:text-base">
+                <div className="text-center">
+                  <h2 className="text-2xl text-white font-bold flex items-center justify-center ">
+                    <Phone size={24} className="mr-2" />{" "}
                     <a
                       href="tel:+917297062504"
-                      className="text-white hover:text-white/70"
+                      className="text-white hover:text-white/70 text-sm"
                     >
                       +91 72970 62504
                     </a>
-                  </p>
+                  </h2>
                 </div>
+              </div>
 
+              <div className="text-center">
                 <CalendlyButton />
               </div>
             </div>
+          </div>
 
-            <div className="hidden md:block ">
-              <div className="flex flex-col items-center space-y-2 text-center">
-                <p className="text-white text-2xl font-bold">Got a question?</p>
-
-                <p className="text-white text-sm md:text-base">
+          {/* Contact Form Section */}
+          <div className="hidden lg:block">
+            <div className="space-y-4">
+              <div className="text-center">
+                <h2 className="text-2xl text-white font-bold">
+                  Got a question?
+                </h2>
+                <p className="text-white text-sm">
                   Drop us a line, give us a call, or send a carrier
                   pigeon—whatever floats your boat.
                 </p>
               </div>
-              <form className="w-full max-w-lg" onSubmit={handleSubmit}>
-                <div className="mb-4 flex flex-col justify-evenly md:flex-row space-y-4 md:space-y-0 md:space-x-5">
-                  <div>
-                    <label
-                      className="block text-white text-sm font-bold mb-2"
-                      htmlFor="name"
-                    >
-                      Name
-                    </label>
-                    <input
-                      className="w-full px-3 py-2 text-black rounded-md"
-                      type="text"
-                      id="name"
-                      placeholder="Your Name"
-                      value={formData.name}
-                      onChange={handleChange}
-                    />
-                  </div>
-                  <div>
-                    <label
-                      className="block text-white text-sm font-bold mb-2"
-                      htmlFor="subject"
-                    >
-                      Subject
-                    </label>
-                    <input
-                      className="w-full px-3 py-2 text-black rounded-md"
-                      type="text"
-                      id="subject"
-                      placeholder="Subject"
-                      value={formData.subject}
-                      onChange={handleChange}
-                    />
-                  </div>
-                </div>
-                <div className="mb-4 flex flex-col justify-evenly md:flex-row space-y-4 md:space-y-0 md:space-x-5">
-                  <div>
-                    <label
-                      className="block text-white text-sm font-bold mb-2"
-                      htmlFor="email"
-                    >
-                      Email
-                    </label>
-                    <input
-                      className="w-full px-3 py-2 text-black rounded-md"
-                      type="email"
-                      id="email"
-                      placeholder="Your Email"
-                      value={formData.email}
-                      onChange={handleChange}
-                    />
-                  </div>
-                  <div>
-                    <label
-                      className="block text-white text-sm font-bold mb-2"
-                      htmlFor="phone"
-                    >
-                      Phone
-                    </label>
-                    <input
-                      className="w-full px-3 py-2 text-black rounded-md"
-                      type="text"
-                      id="phone"
-                      placeholder="Your Phone"
-                      value={formData.phone}
-                      onChange={handleChange}
-                    />
-                  </div>
-                </div>
-                <div className="mb-4">
-                  <label
-                    className="block text-white text-sm font-bold mb-2"
-                    htmlFor="message"
-                  >
-                    Message
-                  </label>
-                  <textarea
+
+              <form className="space-y-4" onSubmit={handleSubmit}>
+                <div className="grid grid-cols-2 gap-4">
+                  <input
                     className="w-full px-3 py-2 text-black rounded-md"
-                    id="message"
-                    rows={6}
-                    placeholder="Your Message"
-                    value={formData.message}
+                    type="text"
+                    placeholder="Your Name"
                     onChange={handleChange}
-                  ></textarea>
+                  />
+                  <input
+                    className="w-full px-3 py-2 text-black rounded-md"
+                    type="text"
+                    placeholder="Subject"
+                    onChange={handleChange}
+                  />
                 </div>
+                <div className="grid grid-cols-2 gap-4">
+                  <input
+                    className="w-full px-3 py-2 text-black rounded-md"
+                    type="email"
+                    placeholder="Your Email"
+                    onChange={handleChange}
+                  />
+                  <input
+                    className="w-full px-3 py-2 text-black rounded-md"
+                    type="tel"
+                    placeholder="Your Phone"
+                    onChange={handleChange}
+                  />
+                </div>
+                <textarea
+                  className="w-full px-3 py-2 text-black rounded-md"
+                  rows={6}
+                  placeholder="Your Message"
+                  onChange={handleChange}
+                ></textarea>
                 <button
                   className="w-full bg-[#ff841a] text-white py-2 rounded-md hover:bg-[#ff841a]/80 transition duration-300"
                   type="submit"

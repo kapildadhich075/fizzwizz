@@ -1,6 +1,6 @@
 "use client";
 
-import { Calendar, Instagram, Linkedin } from "lucide-react";
+import { Instagram, Linkedin } from "lucide-react";
 import Link from "next/link";
 
 const Footer = () => {
@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 xl:col-span-2">
             <div>
               <h3 className="text-sm font-semibold leading-6 text-white/70">
-                Company
+                Fizz Wizz
               </h3>
               <ul role="list" className="mt-6 space-y-4">
                 <li>
@@ -110,14 +110,6 @@ const Footer = () => {
                   <Linkedin color="#fff" size={28} />
                 </Link>
               </div>
-              <Link
-                href={"https://calendly.com/bhaskar-fizzwizz/30min"}
-                target="_blank"
-                className="cursor-pointer flex space-x-2 bg-blue-500 py-2 justify-center rounded-lg items-center mt-4 w-full sm:w-auto"
-              >
-                <Calendar color="#fff" size={24} />
-                <p className="text-sm sm:text-md">Book a meeting</p>
-              </Link>
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ export const homeServices = [
   {
     title: "Social Media",
     image:
-      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/pexels-tracy-le-blanc-67789-607812.jpg?updatedAt=1726110244167",
+      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/7ed1231d0d8f63b21fc832765ce188d5.jpg?updatedAt=1726694277174",
   },
   {
     title: "Branding",

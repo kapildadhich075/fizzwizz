@@ -43,53 +43,39 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center">
         <Quote />
         <div
-          className="relative flex flex-col justify-center items-center h-[80vh] bg-black/85 w-full"
+          className="relative flex flex-col justify-center items-center lg:h-[80vh] h-full bg-black/85 w-full lg:m-0 m-8"
           id="services"
         >
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl font-bold transition duration-300 ease-in-out transform hover:scale-110">
-              Our Services
+              Services
             </h1>
-            <img
-              src="https://ik.imagekit.io/umdiwr6ma/fizzwizz/shape-16.png?updatedAt=1726091956823"
-              alt="Shapes"
-              className="hidden md:block absolute bottom-[41rem] z-10"
-            />
-            <p className="text-white text-base sm:text-lg mt-14 mb-4">
-              We Provide The Best Services For Your Business.
+
+            <p className="text-white text-base sm:text-lg mt-2 mb-8">
+              We Provide A Wide Range Of Services.
             </p>
           </div>
           <HomeServices />
-          {/* Shapes */}
-          <div className="hidden md:block absolute top-[20rem] left-[12rem] rotate-45 w-12 h-12 md:w-16 md:h-16 bg-blue-500 rounded-lg transition-transform duration-500 ease-in-out transform hover:-rotate-45 z-10"></div>
-          <div className="hidden md:block absolute top-20 right-20 w-12 h-12 md:w-16 md:h-16 bg-red-500 rounded-full transition-transform duration-500 ease-in-out transform hover:scale-125 z-10"></div>
         </div>
 
         <div
-          className="relative flex flex-col justify-center items-center h-[80vh] bg-black/85 w-full"
+          className="relative flex flex-col justify-center items-center lg:h-[80vh] h-[700px] bg-black/85 w-full m-8"
           id="clients"
         >
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl font-bold transition duration-300 ease-in-out transform hover:scale-110">
               Case Studies
             </h1>
-            <img
-              src="https://ik.imagekit.io/umdiwr6ma/fizzwizz/shape-16.png?updatedAt=1726091956823"
-              alt="Shapes"
-              className="hidden md:block absolute bottom-[39rem] z-10"
-            />
-            <p className="text-white text-base sm:text-lg mt-14">
+
+            <p className="text-white text-base sm:text-lg mt-2 ">
               We Have Worked With Some Amazing Brands.
             </p>
           </div>
           <Clients />
-          {/* Shapes */}
-          <div className="hidden md:block absolute top-[17rem] left-24 w-12 h-12 md:w-16 md:h-16 animate-bounce -rotate-45 bg-orange-500 rounded-lg transition-transform duration-500 ease-in-out transform hover:rotate-45 z-10"></div>
-          <div className="hidden md:block absolute top-20 right-20 w-12 h-12 md:w-16 md:h-16 bg-white rounded-full transition-transform duration-500 ease-in-out transform hover:scale-125 z-10"></div>
         </div>
 
         <div
-          className="flex flex-col justify-center items-center h-[100vh] bg-black/85 w-full"
+          className="flex flex-col justify-center items-center h-[50vh] bg-black/85 w-full"
           id="contact"
         >
           <Contact />

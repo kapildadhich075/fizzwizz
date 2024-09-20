@@ -35,7 +35,7 @@ const AboutUs = () => {
       <AboutUsHeader />
 
       <div
-        className="relative flex flex-col justify-center items-center min-h-[80vh] bg-black/85 w-full"
+        className="relative flex flex-col justify-center items-center min-h-[50vh] bg-black/85 w-full"
         id="about-us"
       >
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
@@ -49,47 +49,35 @@ const AboutUs = () => {
             />
           </div>
           <div className="flex flex-col items-start p-4 sm:p-8 text-justify">
-            <h1 className="text-white text-3xl sm:text-4xl lg:text-6xl font-bold transition duration-300 ease-in-out transform hover:scale-110">
+            <h1 className="mt-5 text-white text-3xl sm:text-4xl lg:text-6xl font-bold transition duration-300 ease-in-out transform hover:scale-110">
               About Us
             </h1>
-            <img
-              src="https://ik.imagekit.io/umdiwr6ma/fizzwizz/shape-16.png?updatedAt=1726091956823"
-              alt="Shapes"
-              className="absolute bottom-[37rem] z-10 hidden lg:block"
-            />
-            <div className="space-y-4 mt-6 lg:mt-14">
+
+            <div className="space-y-8 mt-6 lg:mt-14">
               <p className="text-white text-sm sm:text-base lg:text-xl">
-                Fizz Wizz Media is a creative group that focuses on making
-                brands iconic. With consistent branding practices, a product or
-                a brand develops a bubble around it and that is where we come in
-                the picture to pop it.
+                Fizz Wizz Media is a Brand House with expertise in Design,
+                Branding & Strategy. We believe in more than just catching
+                trends—we’re here to build brands that stand the test of time
               </p>
               <p className="text-white text-sm sm:text-base lg:text-xl">
-                For us, it&apos;s never about playing it safe with branding, we
-                shun conformity. We build an architecture of reason that allows
-                your brand to stand any season of marketing.
+                Our goal is to make your brand presence iconic and impactful.
               </p>
               <p className="text-white text-sm sm:text-base lg:text-xl">
-                We bring unconventional ideas to the table because we believe
-                whoever brings authentic content, owns the digital landscape.
-                Content is the king and we are the king makers.
+                For us, consistency beats perfection. We believe in raw,
+                authentic content that’s all about delivering true value—not
+                just chasing numbers.
               </p>
               <p className="text-white text-sm sm:text-base lg:text-xl">
-                We bring a kind of rebellious spirit to a brand so that your
-                product or service is not only seen but is also felt.
+                At Fizz Wizz, we’re all about creating lasting brand stories.
+                It’s not just about the numbers—it’s about building connections
+                that resonate with your audience. When you work with us, we
+                handle the strategy, branding, and growth, so you can focus on
+                what you do best. Let’s build something iconic together,
+                starting now.
               </p>
             </div>
           </div>
         </div>
-        {/* Shapes */}
-        <img
-          src="https://ik.imagekit.io/umdiwr6ma/fizzwizz/shape-13.png?updatedAt=1726097221238"
-          alt="quote"
-          className="hidden lg:block absolute top-[36rem] right-[40%]  h-16 w-16 lg:h-36 lg:w-36 transition-transform duration-500 ease-in-out transform hover:-rotate-45"
-        />
-        <div className="hidden lg:block absolute bottom-20 right-[15%] rotate-45 w-8 h-8 lg:w-16 lg:h-16 bg-[#ff841a] rounded-lg transition-transform duration-500 ease-in-out transform hover:-rotate-45 z-10"></div>
-        <div className="hidden lg:block absolute bottom-[10rem] right-[10%] w-8 h-8 lg:w-16 lg:h-16 bg-white rounded-full transition-transform duration-500 ease-in-out transform hover:scale-125"></div>
-        <div className="hidden lg:block absolute bottom-20 right-[5%] w-8 h-8 lg:w-16 lg:h-16 bg-blue-500 rounded-full transition-transform duration-500 ease-in-out transform hover:scale-125"></div>
       </div>
 
       <div
