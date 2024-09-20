@@ -147,6 +147,8 @@ export const caseStudies = [
       "Fizz Wizz Media sourced the perfect voice-over talent who matched the brand’s requirements. We handled everything from script adaptation to recording and final audio mastering, ensuring seamless integration with the event visuals.",
     result:
       "The event launch was a huge success, with the voice-over adding a polished, engaging touch to the presentation, leaving a lasting impression on attendees.",
+    imageUrl:
+      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/pexels-ferartstudio-27677834.jpg?updatedAt=1726110113538",
   },
   {
     title: "YouTube Management for a Creator’s 1 Million Subscriber Milestone",
@@ -157,6 +159,8 @@ export const caseStudies = [
       "Fizz Wizz Media took over the entire post-production process, managing video editing, thumbnails, SEO-friendly titles and descriptions, and regular scheduling. We also implemented community engagement strategies to increase interaction and viewer loyalty.",
     result:
       "Within a year, the YouTuber’s channel grew to 1 million subscribers, thanks to our streamlined post-production and YouTube management services, significantly boosting engagement and visibility.",
+    imageUrl:
+      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/pexels-pixabay-257904.jpg?updatedAt=1726110873829",
   },
   {
     title: "Ad Shoot for ScanX AI Product Demo",
@@ -167,6 +171,8 @@ export const caseStudies = [
       "Fizz Wizz Media took charge of the entire production process, from concept to execution. We focused on delivering a sleek, professional ad shoot that demonstrated the AI product’s functionality in real-world scenarios. Our team managed everything from storyboard development, to shooting, editing, and final delivery.",
     result:
       "The product demo ad successfully showcased ScanX AI's innovation and functionality, helping the company gain investor confidence and secure critical funding.",
+    imageUrl:
+      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/pexels-pixabay-257904.jpg?updatedAt=1726110873829",
   },
   {
     title: "Voice-Over Artist for Menarini Pharma Event",
@@ -177,6 +183,8 @@ export const caseStudies = [
       "Fizz Wizz Media sourced the perfect voice-over talent who matched the brand’s requirements. We handled everything from script adaptation to recording and final audio mastering, ensuring seamless integration with the event visuals.",
     result:
       "The event launch was a huge success, with the voice-over adding a polished, engaging touch to the presentation, leaving a lasting impression on attendees.",
+    imageUrl:
+      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/pexels-ferartstudio-27677834.jpg?updatedAt=1726110113538",
   },
   {
     title: "YouTube Management for a Creator’s 1 Million Subscriber Milestone",
@@ -187,6 +195,8 @@ export const caseStudies = [
       "Fizz Wizz Media took over the entire post-production process, managing video editing, thumbnails, SEO-friendly titles and descriptions, and regular scheduling. We also implemented community engagement strategies to increase interaction and viewer loyalty.",
     result:
       "Within a year, the YouTuber’s channel grew to 1 million subscribers, thanks to our streamlined post-production and YouTube management services, significantly boosting engagement and visibility.",
+    imageUrl:
+      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/pexels-pixabay-257904.jpg?updatedAt=1726110873829",
   },
   {
     title: "Ad Shoot for ScanX AI Product Demo",
@@ -197,5 +207,7 @@ export const caseStudies = [
       "Fizz Wizz Media took charge of the entire production process, from concept to execution. We focused on delivering a sleek, professional ad shoot that demonstrated the AI product’s functionality in real-world scenarios. Our team managed everything from storyboard development, to shooting, editing, and final delivery.",
     result:
       "The product demo ad successfully showcased ScanX AI's innovation and functionality, helping the company gain investor confidence and secure critical funding.",
+    imageUrl:
+      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/pexels-pixabay-257904.jpg?updatedAt=1726110873829",
   },
 ];
