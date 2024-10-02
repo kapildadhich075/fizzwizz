@@ -74,7 +74,7 @@ export const Clients = () => {
   };
 
   return (
-    <div className="relative w-full max-w-6xl px-4">
+    <div className="relative w-full max-w-6xl px-4 overflow-hidden">
       <div className="overflow-hidden">
         <div
           className="flex transition-transform duration-500 gap-5"
@@ -122,20 +122,16 @@ export const Clients = () => {
           ))}
         </div>
       </div>
-      <div
-        className="flex justify-center items-center gap-5 mt-4 
-      
-      "
-      >
+      <div className="flex justify-center items-center gap-5 mt-4">
         <button
           onClick={prevSlide}
-          className="bg-[#ff841a] text-white p-2 rounded-full"
+          className="absolute top-1/2 left-4 sm:left-6 md:left-8 lg:left-10 transform -translate-y-1/2 bg-[#ff841a] text-white p-2 rounded-full"
         >
           <ChevronLeft />
         </button>
         <button
           onClick={nextSlide}
-          className="bg-[#ff841a] text-white p-2 rounded-full"
+          className="absolute top-1/2 right-4 sm:right-6 md:right-8 lg:right-10 transform -translate-y-1/2 bg-[#ff841a] text-white p-2 rounded-full"
         >
           <ChevronRight />
         </button>
@@ -159,7 +155,7 @@ export const Clients = () => {
             </button>
             <div className="flex flex-col items-center text-justify">
               <img
-                src="https://via.placeholder.com/150"
+                src={caseStudies[activeSlide].imageUrl}
                 alt="Client Work"
                 className="w-full h-48 object-cover rounded-md mb-4"
               />

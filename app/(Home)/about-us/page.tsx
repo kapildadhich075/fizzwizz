@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-
 import { AboutUsHeader } from "./_component/AboutUsHeader";
 import { ChevronUp } from "lucide-react";
 import { process } from "../../constants/processs";
@@ -30,22 +29,21 @@ const AboutUs = () => {
       behavior: "smooth",
     });
   };
+
   return (
     <>
       <AboutUsHeader />
 
       <div
-        className="relative flex flex-col justify-center items-center min-h-[50vh] bg-black/85 w-full"
+        className="flex flex-col justify-center items-center bg-black/85 w-full min-h-[70vh] p-4 sm:p-8"
         id="about-us"
       >
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
-          <div className="relative flex justify-center items-center p-5 w-full h-[50vh] lg:h-full overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-2  w-full xl:max-h-[60vh] lg:max-h-[100vh]">
+          <div className="relative flex justify-center items-start p-5 xl:p-2 w-full overflow-hidden">
             <img
-              src="https://ik.imagekit.io/umdiwr6ma/fizzwizz/wedding-151.jpg?updatedAt=1726114412578"
+              src="https://ik.imagekit.io/umdiwr6ma/fizzwizz/summer%20lip%20shades%20series.png?updatedAt=1727377409881"
               alt="About Us"
-              className="w-full h-full object-cover rounded-2xl
-              transition duration-300 ease-in-out transform hover:scale-110 hover:-rotate-12
-              "
+              className="w-full lg:h-[68%] xl:h-[38%] object-cover rounded-2xl sm:h-2/3  "
             />
           </div>
           <div className="flex flex-col items-start p-4 sm:p-8 text-justify">
@@ -100,9 +98,7 @@ const AboutUs = () => {
           {process.map((item) => (
             <div
               key={item.id}
-              className="flex flex-col justify-center gap-2 items-center p-4 text-center bg-white/60 rounded-lg
-              transition duration-300 ease-in-out transform hover:scale-90 hover:bg-[#E6B31e]/80
-              "
+              className="flex flex-col justify-center gap-2 items-center p-4 text-center bg-white/60 rounded-lg transition duration-300 ease-in-out transform hover:scale-90 hover:bg-[#E6B31e]/80"
             >
               <h2 className="text-white text-xl sm:text-2xl font-bold bg-[#000] w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center rounded-full">
                 {item.id}

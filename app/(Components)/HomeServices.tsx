@@ -1,6 +1,7 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import React from "react";
 
 export const homeServices = [
   {
@@ -11,7 +12,7 @@ export const homeServices = [
   {
     title: "Branding",
     image:
-      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/pexels-eva-bronzini-7661590.jpg?updatedAt=1726110156067",
+      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/download.jpeg?updatedAt=1727905248916",
   },
   {
     title: "Videos",
@@ -31,7 +32,7 @@ export const homeServices = [
   {
     title: "Voice Over",
     image:
-      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/pexels-ferartstudio-27677834.jpg?updatedAt=1726110113538",
+      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/WhatsApp%20Image%202024-09-13%20at%2018.13.54.jpeg?updatedAt=1727903884259",
   },
 ];
 
@@ -66,7 +67,7 @@ const HomeServices = () => {
 
   return (
     <>
-      <div className="relative w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden">
         <Link href="/services">
           <div className="overflow-hidden">
             <div

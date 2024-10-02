@@ -80,7 +80,7 @@ export const services = [
       "Creating engaging, high-quality content that resonates with your audience and keeps them coming back for more.",
     ],
     image:
-      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/pexels-tracy-le-blanc-67789-607812.jpg?updatedAt=1726110244167",
+      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/7ed1231d0d8f63b21fc832765ce188d5.jpg?updatedAt=1726694277174",
   },
   {
     title: "Branding",
@@ -95,7 +95,7 @@ export const services = [
       "Creating innovative packaging and product designs that stand out on the shelf and reflect your brand’s values and personality.",
     ],
     image:
-      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/pexels-eva-bronzini-7661590.jpg?updatedAt=1726110156067",
+      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/download.jpeg?updatedAt=1727905248916",
   },
   {
     title: "Videos",
@@ -133,7 +133,7 @@ export const services = [
     description:
       "Give your brand the voice it deserves with the iconic and captivating tones of Bhaskar Dadhich. Whether it’s for ads, documentaries, or any video content, his voice will make your message unforgettable. (Because your brand's voice should be as legendary as it is.)",
     image:
-      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/pexels-ferartstudio-27677834.jpg?updatedAt=1726110113538",
+      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/WhatsApp%20Image%202024-09-13%20at%2018.13.54.jpeg?updatedAt=1727903884259",
   },
 ];
 
@@ -148,7 +148,7 @@ export const caseStudies = [
     result:
       "The event launch was a huge success, with the voice-over adding a polished, engaging touch to the presentation, leaving a lasting impression on attendees.",
     imageUrl:
-      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/pexels-ferartstudio-27677834.jpg?updatedAt=1726110113538",
+      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/WhatsApp%20Image%202024-09-13%20at%2018.28.14.jpeg?updatedAt=1727903884382",
   },
   {
     title: "YouTube Management for a Creator’s 1 Million Subscriber Milestone",
@@ -160,7 +160,7 @@ export const caseStudies = [
     result:
       "Within a year, the YouTuber’s channel grew to 1 million subscribers, thanks to our streamlined post-production and YouTube management services, significantly boosting engagement and visibility.",
     imageUrl:
-      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/pexels-pixabay-257904.jpg?updatedAt=1726110873829",
+      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/WhatsApp%20Image%202024-09-12%20at%2003.06.38%20(1).jpeg?updatedAt=1727377409813",
   },
   {
     title: "Ad Shoot for ScanX AI Product Demo",
@@ -172,7 +172,7 @@ export const caseStudies = [
     result:
       "The product demo ad successfully showcased ScanX AI's innovation and functionality, helping the company gain investor confidence and secure critical funding.",
     imageUrl:
-      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/pexels-pixabay-257904.jpg?updatedAt=1726110873829",
+      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/WhatsApp%20Image%202024-09-12%20at%2003.06.38.jpeg?updatedAt=1727903884378",
   },
   {
     title: "Voice-Over Artist for Menarini Pharma Event",
@@ -184,7 +184,7 @@ export const caseStudies = [
     result:
       "The event launch was a huge success, with the voice-over adding a polished, engaging touch to the presentation, leaving a lasting impression on attendees.",
     imageUrl:
-      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/pexels-ferartstudio-27677834.jpg?updatedAt=1726110113538",
+      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/WhatsApp%20Image%202024-09-13%20at%2018.28.14.jpeg?updatedAt=1727903884382",
   },
   {
     title: "YouTube Management for a Creator’s 1 Million Subscriber Milestone",
@@ -196,7 +196,7 @@ export const caseStudies = [
     result:
       "Within a year, the YouTuber’s channel grew to 1 million subscribers, thanks to our streamlined post-production and YouTube management services, significantly boosting engagement and visibility.",
     imageUrl:
-      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/pexels-pixabay-257904.jpg?updatedAt=1726110873829",
+      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/WhatsApp%20Image%202024-09-12%20at%2003.06.38%20(1).jpeg?updatedAt=1727377409813",
   },
   {
     title: "Ad Shoot for ScanX AI Product Demo",
@@ -208,6 +208,6 @@ export const caseStudies = [
     result:
       "The product demo ad successfully showcased ScanX AI's innovation and functionality, helping the company gain investor confidence and secure critical funding.",
     imageUrl:
-      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/pexels-pixabay-257904.jpg?updatedAt=1726110873829",
+      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/WhatsApp%20Image%202024-09-12%20at%2003.06.38.jpeg?updatedAt=1727903884378",
   },
 ];

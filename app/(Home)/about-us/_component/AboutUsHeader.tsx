@@ -3,6 +3,7 @@ import HeaderLogo from "@/app/(Components)/HeaderLogo";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { ChevronDown, Menu } from "lucide-react";
 import Link from "next/link";
+import React from "react";
 import { useState } from "react";
 
 export const AboutUsHeader = () => {
@@ -10,7 +11,7 @@ export const AboutUsHeader = () => {
 
   return (
     <>
-      <div className="relative min-h-screen">
+      <div className="relative max-h-screen">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
@@ -41,7 +42,7 @@ export const AboutUsHeader = () => {
                   <Menu size={24} />
                 </button>
               </SheetTrigger>
-              <SheetContent side="bottom" className="w-full  bg-black/85">
+              <SheetContent side="bottom" className="w-full bg-black/85">
                 <div className="flex flex-col gap-6 mt-10">
                   {routes.map((route) => (
                     <Link

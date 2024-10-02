@@ -90,7 +90,7 @@ export default function Header({ image, text, subText }: HeaderProps) {
           src="https://ik.imagekit.io/umdiwr6ma/fizzwizz/shape-08.svg?updatedAt=1726251001608"
           alt="Shape"
           className="absolute lg:top-[18rem] left-0  z-20 
-                h-14 w-14 sm:top-[12rem]
+                h-14 w-14  hidden lg:block
           "
         />
 

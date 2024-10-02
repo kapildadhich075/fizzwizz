@@ -1,4 +1,5 @@
 import { stone } from "@/app/constants/processs";
+import React from "react";
 
 export const WhyUs = () => {
   return (

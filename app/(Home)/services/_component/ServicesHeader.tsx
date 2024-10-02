@@ -3,6 +3,7 @@ import HeaderLogo from "@/app/(Components)/HeaderLogo";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { ChevronDown, Menu } from "lucide-react";
 import Link from "next/link";
+import React from "react";
 import { useState } from "react";
 
 export const ServicesHeader = () => {
@@ -10,7 +11,7 @@ export const ServicesHeader = () => {
 
   return (
     <>
-      <div className="relative min-h-screen">
+      <div className="relative max-h-screen">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
@@ -67,7 +68,7 @@ export const ServicesHeader = () => {
                 className="text-[#fff] text-lg font-bold  poppins py-3 px-8 rounded-lg mt-16 transition duration-500 ease-in-out transform hover:scale-110"
                 onClick={() => {
                   document
-                    .getElementById("services")
+                    .getElementById("why-us")
                     ?.scrollIntoView({ behavior: "smooth" });
                 }}
               >
