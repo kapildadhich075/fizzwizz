@@ -18,7 +18,7 @@ export const AboutUsHeader = () => {
             backgroundImage: `url(https://ik.imagekit.io/umdiwr6ma/fizzwizz/IMG_3786.JPG?updatedAt=1726112181023)`,
           }}
         ></div>
-        <div className="absolute inset-0 bg-gradient-to-tr from-[#fff]/75 to-black opacity-50 z-10"></div>
+        {/* <div className="absolute inset-0 bg-gradient-to-tr from-[#fff]/75 to-black opacity-50 z-10"></div> */}
 
         <div className="relative z-20 max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="w-full flex items-center justify-between py-6 sm:py-10">
@@ -60,8 +60,15 @@ export const AboutUsHeader = () => {
           </div>
 
           <div className="flex flex-col mt-32 items-center justify-center max-w-5xl mx-auto text-center min-h-[50vh] gap-8">
-            <h1 className="text-white text-4xl lg:text-5xl xl:text-7xl font-black">
-              We intend to make your brand come out of its bubble
+            <h1 className="text-white text-4xl lg:text-5xl xl:text-7xl font-black ">
+              We intend to make your brand come out of its bubble{"  "}
+              <span
+                className="text-4xl lg:text-5xl xl:text-7xl
+                animate-pulse-slow
+              "
+              >
+                🫧
+              </span>
             </h1>
             <div className="flex items-center justify-center">
               <button
