@@ -80,15 +80,6 @@ const Footer = () => {
                     +91 72970 62504
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-sm leading-6 text-white hover:text-white/70"
-                  >
-                    08, Shakti Nagar, 1st Street, Paota &rsquo;c&rsquo; Road,
-                    Jodhpur, Rajasthan, 342001
-                  </a>
-                </li>
               </ul>
             </div>
             <div className="flex flex-col justify-between space-y-4 sm:space-y-0">
