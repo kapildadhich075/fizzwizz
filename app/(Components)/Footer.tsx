@@ -14,10 +14,6 @@ const Footer = () => {
               src="https://ik.imagekit.io/umdiwr6ma/fizzwizz/Fizz%20Wizz%20Logo%20-%20light-02.png?updatedAt=1726098204228"
               alt="Company name"
             />
-            <p className="text-sm sm:text-md leading-6 text-white font-bold poppins">
-              Creative Group Creative <br />
-              solutions for creative people
-            </p>
           </div>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 xl:col-span-2">
             <div>
