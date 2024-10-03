@@ -63,7 +63,7 @@ export default function Home() {
       </div>
 
       <div
-        className="flex flex-col justify-center items-center h-[50vh] bg-black/85 w-full mt-14"
+        className="flex flex-col justify-center items-center  bg-black/85 w-full mt-10"
         id="contact"
       >
         <Contact />

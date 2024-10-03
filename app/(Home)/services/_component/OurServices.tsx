@@ -28,7 +28,7 @@ export const OurServices = () => {
             <img
               src={service.image}
               alt={service.title}
-              className="w-full h-64 sm:h-80 md:h-96 object-cover rounded-lg"
+              className="w-full h-[30rem] object-cover rounded-lg"
             />
             <div className="absolute inset-0 bg-black lg:opacity-55 opacity-0 rounded-lg hover:opacity-0"></div>
           </div>

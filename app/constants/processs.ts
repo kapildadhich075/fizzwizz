@@ -80,7 +80,7 @@ export const services = [
       "Creating engaging, high-quality content that resonates with your audience and keeps them coming back for more.",
     ],
     image:
-      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/7ed1231d0d8f63b21fc832765ce188d5.jpg?updatedAt=1726694277174",
+      "https://ik.imagekit.io/umdiwr6ma/fizzwizz/7ed1231d0d8f63b21fc832765ce188d5.jpg?updatedAt=1727953061734",
   },
   {
     title: "Branding",

@@ -1,6 +1,7 @@
 import { Mail, MapIcon, Phone } from "lucide-react";
 import { useState } from "react";
 import { CalendlyButton } from "./CalendlyButton";
+import React from "react";
 
 export default function Contact() {
   const [formData, setFormData] = useState({

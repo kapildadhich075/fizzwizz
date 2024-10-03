@@ -85,7 +85,7 @@ export const Clients = () => {
           {caseStudies?.map((caseStudy, index) => (
             <div
               key={index}
-              className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg
+              className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 flex flex-col  bg-white shadow-sm border border-slate-200 rounded-lg
                 transition-transform duration-500 hover:shadow-lg hover:-translate-y-1 hover:border-slate-300
                 focus:shadow-lg focus:-translate-y-1 focus:border-slate-300
                 active:shadow-none active:-translate-y-0 active:border-slate-200

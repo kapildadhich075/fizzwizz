@@ -10,9 +10,7 @@ export default function layout({ children }: Props) {
   return (
     <>
       {children}
-      <div className="bg-black/90 w-full">
-        <Footer />
-      </div>
+      <Footer />
     </>
   );
 }

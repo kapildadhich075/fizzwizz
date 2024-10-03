@@ -38,12 +38,12 @@ const AboutUs = () => {
         className="flex flex-col justify-center items-center bg-black/85 w-full min-h-[70vh] p-4 sm:p-8"
         id="about-us"
       >
-        <div className="grid grid-cols-1 lg:grid-cols-2  w-full xl:max-h-[60vh] lg:max-h-[100vh]">
+        <div className="grid grid-cols-1 lg:grid-cols-2  w-full">
           <div className="relative flex justify-center items-start p-5 xl:p-2 w-full overflow-hidden">
             <img
-              src="https://ik.imagekit.io/umdiwr6ma/fizzwizz/summer%20lip%20shades%20series.png?updatedAt=1727377409881"
+              src="https://ik.imagekit.io/umdiwr6ma/fizzwizz/summer%20lip%20shades%20series.png?updatedAt=1727953541036"
               alt="About Us"
-              className="w-full lg:h-[68%] xl:h-[38%] object-cover rounded-2xl sm:h-2/3  "
+              className="w-full object-cover rounded-2xl h-96 sm:h-[500px] lg:h-[600px] xl:h-[700px]"
             />
           </div>
           <div className="flex flex-col items-start p-4 sm:p-8 text-justify">
