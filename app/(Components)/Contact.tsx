@@ -52,42 +52,43 @@ export default function Contact() {
 
         <div className="flex flex-col w-full gap-8">
           {/* Contact Information Section */}
-          <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-            <div className="text-center">
-              <h2 className="text-2xl text-white font-bold flex items-center justify-center">
-                <Mail size={24} className="mr-2" />
-                <a
-                  href="mailto:info@fizzwizz.in"
-                  className="text-white hover:text-white/70 text-sm"
-                >
-                  info@fizzwizz.in
-                </a>
-              </h2>
-            </div>
-
-            <div className="text-center">
-              <h2 className="text-2xl text-white font-bold flex items-center justify-center">
-                <Phone size={24} className="mr-2" />
-                <a
-                  href="tel:+917297062504"
-                  className="text-white hover:text-white/70 text-sm"
-                >
-                  +91 72970 62504
-                </a>
-              </h2>
-            </div>
-
-            <CalendlyButton />
-          </div>
 
           {/* Contact Form Section */}
           <div className="w-full">
-            <div className="space-y-4">
+            <div className="space-y-8">
               <div className="text-center">
-                <p className="text-white text-sm">
+                <p className="text-white text-lg">
                   Drop us a line, give us a call, or send a carrier
                   pigeon—whatever floats your boat.
                 </p>
+              </div>
+
+              <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
+                <div className="text-center">
+                  <h2 className="text-2xl text-white font-bold flex items-center justify-center">
+                    <Mail size={24} className="mr-2" />
+                    <a
+                      href="mailto:info@fizzwizz.in"
+                      className="text-white hover:text-white/70 text-sm"
+                    >
+                      info@fizzwizz.in
+                    </a>
+                  </h2>
+                </div>
+
+                <div className="text-center">
+                  <h2 className="text-2xl text-white font-bold flex items-center justify-center">
+                    <Phone size={24} className="mr-2" />
+                    <a
+                      href="tel:+917297062504"
+                      className="text-white hover:text-white/70 text-sm"
+                    >
+                      +91 72970 62504
+                    </a>
+                  </h2>
+                </div>
+
+                <CalendlyButton />
               </div>
 
               <form className="space-y-4" onSubmit={handleSubmit}>
